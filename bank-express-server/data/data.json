@@ -1,0 +1,52 @@
+{
+  "accounts": [
+    {
+      "id": "013e0dc0-ce7d-49ca-889c-013fa68707c1",
+      "name": "Vinit",
+      "balance": 1200,
+      "createdAt": "2025-10-25T20:10:07.647Z"
+    },
+    {
+      "id": "fa2411fd-42c6-4492-968a-6753a84a259a",
+      "name": "Aryan",
+      "balance": 1100,
+      "createdAt": "2025-10-25T20:18:32.971Z"
+    },
+    {
+      "id": "7571e751-3bbf-4f29-8016-895b73946f78",
+      "name": "Vinit",
+      "balance": 1000,
+      "createdAt": "2025-11-04T07:26:51.029Z"
+    },
+    {
+      "id": "a962bf9e-f33b-4141-b264-8154c4972747",
+      "name": "bawjee",
+      "balance": 1000,
+      "createdAt": "2025-11-04T07:59:40.760Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "024e744c-66cf-4a91-9618-25687dbf6b10",
+      "type": "deposit",
+      "to": "013e0dc0-ce7d-49ca-889c-013fa68707c1",
+      "amount": 500,
+      "date": "2025-10-25T20:21:25.846Z"
+    },
+    {
+      "id": "ea22ba86-ed85-459a-b433-28980ca2825e",
+      "type": "withdraw",
+      "from": "013e0dc0-ce7d-49ca-889c-013fa68707c1",
+      "amount": 200,
+      "date": "2025-10-25T20:22:42.784Z"
+    },
+    {
+      "id": "67c29f2c-1a3b-4a88-8dbc-10f0ff965824",
+      "type": "transfer",
+      "from": "013e0dc0-ce7d-49ca-889c-013fa68707c1",
+      "to": "fa2411fd-42c6-4492-968a-6753a84a259a",
+      "amount": 100,
+      "date": "2025-10-25T20:25:11.309Z"
+    }
+  ]
+}
