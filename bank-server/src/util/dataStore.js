@@ -1,0 +1,17 @@
+const fs = require('fs');
+const path = require('path');
+
+const DATA_FILE = path.join(__dirname, "..", "..", 'data', 'data.json');
+
+function readData() {
+    if(!fs.existsSync(DATA_FILE)) {
+        fs.writeFileSync(DATA_FILE, JSON.stringify({ accounts: [], transactions: [] }, null, 2));
+    }
+    return JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
+}
+
+function writeData(data) {
+    fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
+}
+
+module.exports = { readData, writeData }

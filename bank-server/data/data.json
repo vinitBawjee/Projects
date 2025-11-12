@@ -1,0 +1,17 @@
+{
+  "accounts": [
+    {
+      "id": "e8db63fa-9d25-4eee-ba18-863610bfc977",
+      "name": "bawjee",
+      "balance": 50,
+      "createdAt": "2025-11-07T09:26:51.903Z"
+    },
+    {
+      "id": "d7fcfcc0-2d03-4c0d-be8a-e6a079e7c6c1",
+      "name": "Aryan",
+      "balance": 1000,
+      "createdAt": "2025-11-07T09:27:04.969Z"
+    }
+  ],
+  "transactions": []
+}
